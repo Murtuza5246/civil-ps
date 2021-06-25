@@ -1,0 +1,191 @@
+.Nav {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  background-color: #3a51d3;
+  display: flex;
+  box-shadow: 1px 1px 3px grey;
+
+  z-index: 2;
+  /* background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+   */
+  /* background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"); */
+  border-bottom: 0.3px solid rgb(27, 60, 247);
+}
+.Nav .NavLinkClass {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.Nav .NavLinkClass:hover,
+.Nav .NavLinkClass:active,
+.Nav .NavLinkClass.active {
+  color: rgb(255, 196, 0);
+}
+.DivItem0 {
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+/* 
+.DivItem01 {
+  box-sizing: border-box;
+  width: 50%;
+}*/
+.DivItem1 {
+  position: relative;
+  top: 5px;
+}
+
+.DivItem2 {
+  position: relative;
+  top: 5px;
+}
+.DivItem3 {
+  position: relative;
+  top: -2px;
+}
+
+.DivItem01 {
+  display: flex;
+  position: absolute;
+  right: 0;
+  justify-content: space-around;
+  width: 50%;
+  padding-top: 10px;
+}
+
+.DivItem2:hover {
+  color: rgb(255, 202, 87);
+}
+
+.userProfileImage img {
+  border-radius: 100%;
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.DivItem0 h2 {
+  margin-top: 18px;
+  font-family: "Merriweather", serif;
+}
+
+.profileImage {
+  width: 100%;
+  box-sizing: border-box;
+}
+.profileImage img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  text-align: center;
+  margin: 12px 0px 5px 10px;
+}
+.inputHandler input[type="file"] {
+  border: none;
+  background-color: none;
+  border-bottom: none;
+  margin: 3px 2px 5px 10px;
+}
+.labelHandler {
+  margin: 0 20%;
+}
+.DivItem0 {
+  display: flex;
+}
+.DivItem0 img {
+  position: relative;
+  top: 15px;
+  max-width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.notLoggedInStyle {
+  width: 100%;
+  text-align: center;
+  padding: 125px;
+}
+.notLoggedInStyle a {
+  text-decoration: none;
+}
+.drawerPosition1 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .Nav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #3a51d3;
+    display: flex;
+    box-shadow: 1px 1px 3px grey;
+
+    z-index: 2;
+    /* background-image: url("https://www.transparenttextures.com/patterns/climpek.png");
+     */
+    /* background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png"); */
+    border-bottom: 0.3px solid rgb(27, 60, 247);
+  }
+  .DivItem0 {
+    display: flex;
+  }
+  .DivItem0 h2 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 1.2rem;
+  }
+  .DivItem0 img {
+    position: relative;
+    top: 20px;
+    max-width: 30px;
+    height: 30px;
+    object-fit: cover;
+  }
+  .Nav .NavLinkClass {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .active {
+    color: rgb(255, 176, 58);
+  }
+  .Nav .NavLinkClass:hover {
+    color: rgb(250, 229, 109);
+  }
+  .DivItem0 {
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+  }
+  /* 
+  .DivItem01 {
+    box-sizing: border-box;
+    width: 50%;
+  }*/
+
+  .DivItem01 {
+    display: none;
+  }
+  .drawerPosition1 {
+    width: 100%;
+    display: flex;
+  }
+  .drawerPosition1 .drawerPosition2 {
+    position: relative;
+    bottom: -25%;
+    right: -40%;
+    color: white;
+  }
+  .drawerPosition {
+    width: 100%;
+    position: relative;
+    right: -62%;
+  }
+}

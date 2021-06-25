@@ -1,0 +1,17 @@
+.helpMainDiv {
+  width: 100%;
+  margin: 55px auto;
+  box-shadow: 2px 3px 7px grey;
+  border-radius: 10px;
+  padding: 10px 100px;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .helpMainDiv {
+    width: 100%;
+    margin: 55px auto;
+    box-shadow: 2px 3px 7px grey;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+}

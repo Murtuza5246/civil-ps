@@ -1,0 +1,7 @@
+.badgeContent {
+  display: block;
+  position: relative;
+  left: 125px;
+  bottom: 37px;
+  opacity: 50%;
+}

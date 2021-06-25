@@ -1,0 +1,11 @@
+.modalImage {
+  width: 100px;
+  height: 100px;
+}
+.modalImageDiv {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}

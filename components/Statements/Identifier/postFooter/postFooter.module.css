@@ -1,0 +1,23 @@
+.postFooterMain {
+  width: 100%;
+  min-height: 50px;
+  background-color: #f9fafc;
+  padding: 5px 10px;
+}
+.buttonInPostFooter {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: white;
+}
+.buttonInPostFooterDisabled {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: white;
+  color: grey;
+  cursor: not-allowed;
+}
+.buttonInPostFooter:hover {
+  background-color: aliceblue;
+}

@@ -1,0 +1,20 @@
+.mainAboutDiv {
+  text-align: left;
+}
+.markupLookDiv {
+  width: 100%;
+  padding: 20px;
+}
+.aboutButtons {
+  padding: 5px 0 20px 10px;
+}
+
+@media (max-width: 500px) {
+  .mainAboutDiv .h4Tag {
+    text-align: center;
+  }
+  .aboutButtons {
+    text-align: center;
+    padding: 5px 0 20px 0;
+  }
+}

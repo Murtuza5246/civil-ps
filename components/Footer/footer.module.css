@@ -1,0 +1,16 @@
+.footerInfo {
+  width: 100%;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/870/756/865/4k-dark-blue-lines-grid-lines-wallpaper-preview.jpg");
+  background-color: rgb(44, 39, 39);
+  padding: 20px;
+  color: white;
+}
+
+.footerInfo a {
+  text-decoration: none;
+  color: white;
+}
+.footerInfo ul {
+  list-style: none;
+  line-height: 2rem;
+}

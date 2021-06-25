@@ -1,0 +1,144 @@
+.sidenav {
+  width: 110%;
+  /* position: fixed;
+  width: 20%; */
+  /* background-color: blueviolet; */
+  box-sizing: border-box;
+  margin: 45px 10px 0px -5px;
+  box-shadow: 1px 2px 5px grey;
+  display: block;
+  z-index: -1;
+  padding-left: 0;
+  height: 100vh;
+
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.sideNavName {
+  font-family: "Ubuntu", sans-serif;
+}
+.imageManagerDiv1 {
+  margin-top: 5px;
+  font-size: 2.5rem;
+}
+.nestedFirstDiv {
+  width: 100%;
+  height: 100%;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box;
+}
+.sidenav ul {
+  list-style-position: outside;
+}
+.sidenav ul li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 10px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  list-style-position: outside;
+}
+.sidenav ul li a {
+  text-decoration: none;
+  list-style: none;
+  line-height: 10px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.sidenav div {
+  width: 100%;
+}
+.sidenav div div:hover {
+  width: 100%;
+}
+.ulListManage {
+  box-sizing: border-box;
+  line-height: 2rem;
+  margin-left: -20px;
+  margin-top: 5px;
+}
+.nestedDivForManage {
+  box-sizing: border-box;
+  margin: 5px;
+  width: 100%;
+}
+.imageManagerDiv {
+  position: relative;
+  top: 5px;
+  right: 5px;
+  text-align: center;
+  padding-top: 15px;
+  /* background-color: #000000; */
+  background-color: #8a0027;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+}
+.imageManagerDiv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.SideBarItems {
+  padding-left: -10px;
+  margin-left: -5px;
+}
+
+@media (max-width: 500px) {
+  .sidenav {
+    width: 0%;
+    /* background-color: blueviolet; */
+    box-sizing: border-box;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px grey;
+    display: block;
+    display: none;
+    z-index: 1000;
+  }
+
+  .sidenav ul {
+    list-style-position: outside;
+  }
+  .sidenav ul li {
+    text-decoration: none;
+    list-style: none;
+    line-height: 10px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    list-style-position: outside;
+  }
+  .sidenav ul li a {
+    text-decoration: none;
+    list-style: none;
+    line-height: 10px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+
+  .sidenav div {
+    width: 100%;
+  }
+  .sidenav div div:hover {
+    background-color: rgb(230, 225, 225);
+    width: 100%;
+  }
+  .ulListManage {
+    box-sizing: border-box;
+    line-height: 2rem;
+    margin-left: -20px;
+    margin-top: 5px;
+  }
+  .nestedDivForManage {
+    box-sizing: border-box;
+    margin: 5px;
+    width: 100%;
+  }
+}
+@media (max-width: 960px) {
+  .sidenav {
+    display: none;
+  }
+}

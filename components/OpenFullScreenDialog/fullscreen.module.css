@@ -1,0 +1,61 @@
+.myWidthClass {
+  width: 95%;
+  margin-top: 55px;
+  margin-left: 3%;
+  z-index: -1;
+  padding: 100px;
+  margin-bottom: 55px;
+  box-shadow: 2px 3px 5px rgb(104, 103, 103);
+  border-radius: 10px;
+}
+.adjustmentArea {
+  margin: 10px auto;
+  text-align: center;
+}
+.mtITagHandler i {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.mtITagHandler {
+  margin: 0px auto;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+.spinnerClassHandle {
+  width: 100%;
+  padding: 100px;
+}
+@media (max-width: 500px) {
+  .myWidthClass {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 55px auto;
+    margin-right: 0;
+    z-index: -1;
+    padding: 20px;
+    margin-bottom: 55px;
+    box-shadow: 2px 3px 5px rgb(104, 103, 103);
+    border-radius: 10px;
+  }
+  .adjustmentArea {
+    margin: 10px auto;
+    text-align: center;
+  }
+  .mtITagHandler i {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .mtITagHandler {
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  .spinnerClassHandle {
+    width: 100%;
+    padding: 100px;
+  }
+}

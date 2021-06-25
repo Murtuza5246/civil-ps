@@ -1,0 +1,52 @@
+.eventsManagerDivTop {
+  width: 100%;
+  margin-top: 60px;
+  padding: 0 10px 0 30px;
+}
+.eventTopIdentifierDiv {
+  width: 100%;
+  display: flex;
+}
+.eventTopIdentifierDiv h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+.eventsManagerDiv {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px grey;
+  background-color: rgb(255, 255, 255);
+}
+.upcomingEventsDiv {
+  width: 100%;
+  min-height: 100px;
+}
+.recentStatementsTopDiv {
+  width: 100%;
+  padding: 5px 1px 0 20px;
+  text-align: left;
+  min-height: 100px;
+}
+.eventsHeadingDiv {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(66, 143, 243);
+  border-radius: 5px 5px 0 0;
+}
+.uploaderImage {
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+@media (max-width: 500px) {
+  .eventsManagerDiv {
+    display: none;
+  }
+  .eventsManagerDivTop {
+    display: none;
+  }
+}

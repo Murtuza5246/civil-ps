@@ -1,0 +1,14 @@
+.myWidthClassCompose {
+  position: absolute;
+  left: 21%;
+  width: 78%;
+  margin-top: 22px;
+  margin-right: 3%;
+  z-index: -1;
+}
+.flexComponent {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 3px 7px grey;
+  margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+.indivisualBox img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+
+  cursor: pointer;
+}
+.nameTagHandler {
+  color: black;
+  text-decoration: none;
+}
+.indivisualBox {
+  text-align: left;
+  justify-content: left;
+  margin: 0 auto;
+}
+.identifierProfile {
+  text-align: left;
+  width: 90px;
+  height: 100px;
+  object-fit: cover;
+}

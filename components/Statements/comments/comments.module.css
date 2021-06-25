@@ -1,0 +1,17 @@
+.SwipeableDrawerHandler {
+  height: "70%";
+}
+.swipableCommentDiv {
+  overflow-y: auto;
+  height: 70%;
+  position: relative;
+}
+.buttonCloseDiv {
+  position: fixed;
+
+  width: 100%;
+  align-items: right;
+  text-align: right;
+  background-color: white;
+  z-index: 1000;
+}

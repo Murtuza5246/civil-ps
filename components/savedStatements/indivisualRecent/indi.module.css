@@ -1,0 +1,17 @@
+.buttonClass {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 0 50%;
+}
+
+@media (max-width: 500px) {
+  .buttonClass {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+  }
+}

@@ -1,0 +1,127 @@
+.mainDiv {
+  width: 100%;
+  display: flex;
+}
+.statementDiv {
+  width: 70%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+.adsDiv {
+  width: 30%;
+}
+.mainMarkupDivForImages p {
+  color: #685206;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.mainMarkupDivForImages img {
+  max-width: 100%;
+}
+.mainMarkupDivForImages ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+}
+.mainMarkupDivForImages ol li {
+  counter-increment: my-awesome-counter;
+}
+.mainMarkupDivForImages ol li::before {
+  content: counter(my-awesome-counter) ". ";
+  color: red;
+  font-weight: bold;
+}
+.mainMarkupDivForImages hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.mainMarkupDivForImages [style*="--aspect-ratio"] > :first-child {
+  width: 100%;
+}
+.mainMarkupDivForImages [style*="--aspect-ratio"] > img {
+  height: auto;
+}
+@supports (--custom: property) {
+  .mainMarkupDivForImages [style*="--aspect-ratio"] {
+    position: relative;
+  }
+  .mainMarkupDivForImages [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+  .mainMarkupDivForImages [style*="--aspect-ratio"] > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+.mainMarkupDivForImages pre {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-left: 3px solid #f36d33;
+  color: #666;
+  page-break-inside: avoid;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1em 1.5em;
+  display: block;
+  word-wrap: break-word;
+}
+.mainMarkupDivForImages blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+.mainMarkupDivForImages blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.mainMarkupDivForImages blockquote p {
+  display: inline;
+}
+.mainMarkupDivForImages ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+@media (max-width: 500px) {
+  .mainDiv {
+    width: 100%;
+    display: flex;
+  }
+  .statementDiv {
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    overflow-y: hidden;
+    padding-bottom: 0;
+  }
+  .adsDiv {
+    display: none;
+    width: 0%;
+  }
+}

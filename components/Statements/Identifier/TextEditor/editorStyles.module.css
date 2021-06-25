@@ -1,0 +1,14 @@
+.editor {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  padding: 9px;
+  border-radius: 50px;
+  margin-bottom: 1em;
+  box-shadow: inset 0px 1px 8px -3px #fcfcfc;
+  background: #fefefe;
+}
+
+.editorScrollDiv::-webkit-scrollbar {
+  display: none;
+}

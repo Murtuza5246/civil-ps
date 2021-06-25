@@ -1,0 +1,22 @@
+.errorDiv {
+  width: 100%;
+  background-color: rgb(238, 163, 163);
+  height: 100vh;
+  text-emphasis: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 200px;
+}
+@media (max-width: 500px) {
+  .errorDiv {
+    width: 100%;
+    background-color: rgb(238, 163, 163);
+    height: 100vh;
+    text-emphasis: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+}

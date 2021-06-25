@@ -1,0 +1,66 @@
+.profileDivManage {
+  width: 100%;
+  margin: 5px;
+  box-shadow: 2px 3px 5px grey;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 55px;
+}
+.aboutInfoHandle {
+  padding: 0 50px;
+}
+.profileDivManage img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.mainDiv {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.FirstNestedDiv,
+.secondNestedDiv {
+  text-align: center;
+}
+.thirdNestedDiv {
+  padding: 50px;
+}
+.NestedSkeleton {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .profileDivManage img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  .aboutInfoHandle {
+    padding: 0 10px;
+  }
+  .mainDiv {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width: 800px) and (min-width: 499px) {
+  .profileDivManage img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .mainDiv {
+    width: 85%;
+    text-align: center;
+    margin: 55px auto;
+    padding-top: 55px;
+  }
+  .NestedSkeleton {
+    display: none;
+  }
+}

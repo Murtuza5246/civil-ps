@@ -1,0 +1,52 @@
+.myWidthClass {
+  padding: 100px;
+  width: 100%;
+  margin-top: 32px;
+  margin-right: 3%;
+  z-index: -1;
+  margin-bottom: 55px;
+  box-shadow: 2px 3px 5px rgb(104, 103, 103);
+  border-radius: 10px;
+}
+.adjustmentArea {
+  margin: 100px auto;
+  text-align: center;
+}
+.mtITagHandler i {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.mtITagHandler {
+  margin: 0px auto;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .myWidthClass {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 32px;
+    margin-right: 0;
+    z-index: -1;
+    margin-bottom: 55px;
+    box-shadow: 2px 3px 5px rgb(104, 103, 103);
+    border-radius: 10px;
+  }
+  .adjustmentArea {
+    margin: 100px auto;
+    text-align: center;
+  }
+  .mtITagHandler i {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .mtITagHandler {
+    margin: 0px auto;
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+}

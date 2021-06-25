@@ -1,0 +1,7 @@
+.levelMainDiv {
+  display: inline-block;
+  margin: auto;
+  padding: 3px;
+  border-radius: 5px;
+  background-color: aqua;
+}

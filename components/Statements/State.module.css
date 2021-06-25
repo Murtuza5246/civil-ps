@@ -1,0 +1,341 @@
+.paginitionDiv {
+  margin: auto;
+  width: auto;
+  height: 70px;
+  padding: 5px;
+
+  margin: 10px;
+  /* box-shadow: 3px 4px 7px rgb(167, 164, 164); */
+}
+
+.placeholderDivManage {
+  width: 100%;
+}
+.MainGeneralClass {
+  width: 100%;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.titleInGeneral {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bottomNavigation {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 75px;
+  position: fixed;
+  z-index: 5;
+  top: 510px; */
+}
+.flexComponent {
+  width: 96%;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 0 8px grey;
+  background-color: white;
+  -webkit-box-shadow: 0 0 8px rgb(197, 193, 193);
+
+  opacity: 1;
+  position: relative;
+  /* animation: widthClas 1500ms 500ms forwards; */
+}
+.youTubeVideoHandler {
+  text-align: center;
+}
+.youTubeVideoHandler .youTubeVideoHandler10 {
+  width: 100%;
+
+  height: 300px;
+}
+
+@keyframes widthClas {
+  0% {
+    top: 90px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+    box-shadow: 1px 3px 7px grey;
+  }
+}
+
+.searchBarHandler {
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  background-color: white;
+}
+
+.identifierProfile {
+  width: 43px;
+  height: 43px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-position: center;
+  margin: auto 2px;
+  border: 1px solid black;
+}
+.ImageHandler {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+.headingHandler {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: -15px;
+}
+.ImageHandler div {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+.TitleStatement {
+  margin: -10px auto;
+  padding: -10px;
+  display: flex;
+  font-family: "Merriweather", serif;
+}
+.indivisualBox {
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 0.4px grey dotted;
+  margin: 2px 0;
+  padding: 1px;
+}
+
+.indivisualBox p {
+  margin-top: 15px;
+}
+.indivisualBox img {
+  margin-top: 10px;
+}
+.myWidthClass {
+  width: 100%;
+  margin: 55px 0;
+  margin-left: 3%;
+  height: 100vh;
+  overflow-y: scroll;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 0px;
+  padding-bottom: 60px;
+}
+/* .myWidthClass::-webkit-scrollbar {
+  display: none;
+} */
+
+.myComments {
+  margin-left: 10px;
+  padding-bottom: 1px;
+}
+.myHrForDesign {
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: -10px;
+  border: none;
+  border-bottom: 0.3px solid rgb(196, 193, 193);
+  width: 100%;
+}
+.mainTable tr td h4 {
+  margin-top: 18px;
+  margin-bottom: -10px;
+}
+.mainTable tr td p {
+  margin-top: 18px;
+  margin-bottom: -7px;
+}
+.tableDiv {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.myReadMoreTag {
+  text-decoration: none;
+}
+.myReadMoreTag:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.spinnerHandler {
+  margin-top: 200px;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 2;
+}
+.blackingBackground {
+  background-color: rgb(112, 112, 112);
+  height: 100%;
+  width: 100%;
+}
+
+.spinnerHandler {
+  text-align: center;
+  width: 100%;
+}
+.noFoundData {
+  text-align: center;
+  opacity: 0;
+  position: relative;
+  animation: notFound 1000ms 100ms forwards;
+}
+@keyframes notFound {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .scrollDiv {
+    min-height: 100vh;
+  }
+  .youTubeVideoHandler .youTubeVideoHandler10 {
+    width: 100%;
+    height: 200px;
+  }
+  .placeholderDivManage {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .flexComponent {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px grey;
+    -webkit-box-shadow: 0 0 8px rgb(197, 193, 193);
+    margin-top: 10px;
+    opacity: 1;
+    position: relative;
+  }
+  @keyframes widthClas1 {
+    0% {
+      top: 90px;
+      opacity: 0;
+    }
+    100% {
+      top: 0;
+      opacity: 1;
+    }
+  }
+
+  .ImageHandler {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: -10px;
+  }
+  .headingHandler {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: -15px;
+  }
+  .ImageHandler div {
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px auto;
+  }
+  .TitleStatement {
+    margin: -10px auto;
+    padding: -10px;
+    display: flex;
+    font-family: "Merriweather", serif;
+  }
+  .indivisualBox {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.4px grey dotted;
+    margin: 2px 0;
+    padding: 1px;
+  }
+  .indivisualBox p {
+    margin-top: 15px;
+  }
+  .indivisualBox img {
+    margin-top: 10px;
+  }
+  .myWidthClass {
+    width: 100%;
+    background-color: white;
+    margin: 55px 0;
+    height: auto;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    overflow: none;
+
+    padding: 0;
+  }
+  /* .myWidthClass::-webkit-scrollbar {
+    display: none;
+  } */
+  .myComments {
+    padding-bottom: 1px;
+  }
+  .myHrForDesign {
+    margin-bottom: -10px;
+    border: none;
+    border-bottom: 0.3px solid rgb(196, 193, 193);
+    width: 100%;
+  }
+  .mainTable tr td h4 {
+    margin-top: 18px;
+    margin-bottom: -10px;
+    font-family: "Roboto", sans-serif;
+  }
+  .mainTable tr td p {
+    margin-top: 18px;
+
+    margin-bottom: -7px;
+  }
+  .tableDiv {
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+  .myReadMoreTag {
+    text-decoration: none;
+  }
+  .myReadMoreTag:hover {
+    color: green;
+    text-decoration: none;
+  }
+
+  .spinnerHandler {
+    margin-top: 200px;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 2;
+  }
+  .blackingBackground {
+    background-color: rgb(112, 112, 112);
+    height: 100%;
+    width: 100%;
+  }
+  .pageTransformation {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .spinnerHandler {
+    text-align: center;
+    width: 100%;
+  }
+  .mobileScreenHandler {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+    margin: 0;
+  }
+  .DisscussionButton {
+    margin-bottom: 5px;
+  }
+}

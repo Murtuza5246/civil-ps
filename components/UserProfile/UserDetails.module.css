@@ -1,0 +1,67 @@
+.imageDiv img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 1px 1px 10px #888888;
+}
+.mainUserDetailsDiv {
+  padding-bottom: 50px;
+}
+.statementsDiv {
+  width: 100%;
+  padding: 3%;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px grey;
+}
+.imageDiv {
+  margin-top: 20px;
+}
+.logInDetails {
+  margin: 50px 10px;
+}
+.nameDetailsDiv {
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  justify-content: left;
+  font-size: large;
+}
+.buttonMiddleHandle {
+  text-align: center;
+}
+.activityLengthTag {
+  margin-bottom: 13px;
+}
+
+@media (max-width: 500px) {
+  .imageDiv img {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px #888888;
+  }
+  .activityLengthTag {
+    margin-bottom: 23px;
+  }
+  .mainUserDetailsDiv {
+    padding-bottom: 50px;
+  }
+  .mainUserDetailsDiv h4 {
+    font-size: 1rem;
+  }
+  .imageDiv {
+    margin-top: 20px;
+  }
+  .nameDetailsDiv {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    justify-content: left;
+    font-size: large;
+  }
+}

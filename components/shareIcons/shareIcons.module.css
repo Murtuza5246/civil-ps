@@ -1,0 +1,18 @@
+.shareIconsMainDiv {
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+.shareIconsMainDiv button {
+  margin-left: 10px;
+}
+
+@media (max-width: 500px) {
+  .shareIconsMainDiv {
+    padding: 5px;
+  }
+  .shareIconsMainDiv button {
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+}

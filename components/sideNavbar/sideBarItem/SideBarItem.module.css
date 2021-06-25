@@ -1,0 +1,49 @@
+.LinksHandler {
+  display: block;
+  background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.LinksHandler .ListeItems:hover {
+  background-color: rgb(135, 137, 233);
+}
+.LinksHandler div {
+  width: 100%;
+  padding: 10px auto;
+  height: 30px;
+  overflow-y: scroll;
+}
+.LinksHandler a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.expansePan {
+  text-align: center;
+}
+.iconsHandler {
+  width: 100%;
+  display: flex;
+}
+.donateAnchorTag {
+  color: brown;
+  padding: 10px 0 10px 0;
+  font-size: 18px;
+}
+.donateAnchorTag:hover {
+  text-decoration: none;
+  color: rgb(182, 49, 49);
+  animation-name: donationButton;
+
+  animation-duration: 1s;
+  animation-delay: 900ms;
+  animation-fill-mode: both;
+}
+@keyframes donationButton {
+  0% {
+    background-color: rgb(253, 169, 194);
+  }
+  100% {
+    background-color: rgb(230, 107, 144);
+    font-size: 20px;
+  }
+}

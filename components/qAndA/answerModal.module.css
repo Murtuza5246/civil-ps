@@ -1,0 +1,61 @@
+.upArrowHandler {
+  width: 100%;
+  align-items: center;
+  padding: auto;
+  text-align: center;
+}
+.nameTagHandler {
+  color: black;
+  text-decoration: none;
+}
+.nameBackground {
+  background-color: #31326f;
+  border-radius: 4px;
+  padding-right: 2px;
+  margin-right: 2px;
+  color: white;
+}
+.nameBackground a {
+  color: white;
+  text-decoration: none;
+}
+.upArrowHandler1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  align-items: center;
+  padding: auto;
+  text-align: center;
+}
+.fontSizeHandler {
+  font-size: large;
+  color: aqua;
+}
+.divBorder {
+  width: 100%;
+  border-left: 1px solid rgb(170, 168, 168);
+  padding-left: 5px;
+}
+.emphasizedCharacters {
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+  color: grey;
+}
+.donationButton {
+  color: rgb(206, 223, 238);
+}
+.donationButtonAnimation {
+  animation: donationIcon 5s 10s infinite;
+}
+@keyframes donationIcon {
+  0% {
+    font-size: 22px;
+  }
+  50% {
+    font-size: 24px;
+  }
+  100% {
+    font-size: 22px;
+  }
+}

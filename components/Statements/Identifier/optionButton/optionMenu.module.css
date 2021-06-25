@@ -1,0 +1,9 @@
+.optionButton {
+  width: 100%;
+  text-align: center;
+}
+.optionButton span {
+  cursor: pointer;
+  font-size: 2rem;
+  color: grey;
+}

@@ -1,0 +1,153 @@
+.mainDiv {
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 5px;
+  height: 130vh;
+  background-color: #fff;
+}
+.nameTagHandler {
+  color: black;
+  text-decoration: none;
+}
+.selectedQuestion {
+  animation: selectedQuestionBorder 700ms 1000ms infinite;
+  padding: 5px 5px -1px 5px;
+  margin-bottom: 5px;
+}
+@keyframes selectedQuestionBorder {
+  0% {
+    border: 1px solid rgb(226, 209, 55);
+  }
+  25% {
+    border: 1px solid rgb(226, 138, 55);
+  }
+  75% {
+    border: 1px solid rgb(55, 192, 226);
+  }
+  100% {
+    border: 1px solid rgb(226, 55, 203);
+  }
+}
+.bookmarkButton {
+  margin-top: 30px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.likesButtonHandler {
+  margin-bottom: -100px;
+}
+.imageBorderDiv {
+  border-left: 1.5px solid rgb(201, 201, 201);
+  padding-left: 10px;
+}
+.scrollDiv {
+  width: 100%;
+}
+.handPosition {
+  position: relative;
+  top: 15px;
+  right: -7px;
+}
+.animationDiv {
+  opacity: 0;
+  position: relative;
+  animation: widthClas 1500ms 500ms forwards;
+}
+@keyframes widthClas {
+  0% {
+    top: 90px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+.section1 {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+.firstNestedDiv {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 3px 5px grey;
+  padding: 30px;
+}
+.firstNestedDiv .nestedImage {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.ButtonHandler {
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.firstNestedDiv h6 {
+  line-height: 2rem;
+}
+.scrollDiv {
+  min-height: 100vh;
+}
+.videoPlayer {
+  width: 100px;
+  height: 150px;
+}
+@media (max-width: 500px) {
+  .likesButtonHandler {
+    margin-bottom: -100px;
+    position: relative;
+    right: 10px;
+  }
+  .mainDiv {
+    width: 100%;
+  }
+  .handPosition {
+    position: relative;
+    top: 15px;
+    right: 5px;
+  }
+  .section1 {
+    width: 100%;
+    padding: 0px;
+    margin-top: 37px;
+  }
+  .firstNestedDiv {
+    width: 100%;
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px grey;
+    padding: 6px;
+  }
+  .ButtonHandler {
+    padding-top: 20px;
+    padding-left: 5px;
+  }
+  .firstNestedDiv .nestedImage {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .firstNestedDiv h2 {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .firstNestedDiv h6 {
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+  .firstNestedDiv h6 {
+    text-align: justify;
+  }
+  .firstNestedDiv:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+}

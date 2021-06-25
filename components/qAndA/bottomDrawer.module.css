@@ -1,0 +1,16 @@
+.imageHandler {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .imageHandler {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  .nameTextHandler {
+    padding-left: 5px;
+  }
+}

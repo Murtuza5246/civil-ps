@@ -1,0 +1,21 @@
+.MainDiv {
+  align-items: center;
+  text-align: center;
+  padding: 75px 30%;
+}
+.recaptchaCentre {
+  margin: auto;
+}
+.MainDiv img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+@media (max-width: 500px) {
+  .MainDiv {
+    padding-top: 75px;
+    align-items: center;
+    text-align: center;
+    padding: 75px 0;
+  }
+}

@@ -1,0 +1,303 @@
+.myWidthClass {
+  margin-left: 3%;
+  width: 100%;
+  margin-top: 42px;
+  z-index: -1;
+  margin-bottom: 55px;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.IndivisualStatementMainDiv {
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+
+  background-color: white;
+}
+.markupImagesSizehandler {
+  overflow-wrap: anywhere;
+}
+.myComments {
+  overflow-wrap: normal;
+}
+.markupImagesSizehandler img {
+  width: 200px;
+  height: 200px;
+}
+.youtubevideohandler {
+  width: 100%;
+  text-align: center;
+}
+.iframeViewer {
+  width: 100%;
+  text-align: center;
+  background: url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif")
+    center center no-repeat;
+}
+.attachmentHead {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(77, 77, 199);
+  color: beige;
+}
+.imagesFromData {
+  width: 100%;
+  max-width: 100%;
+  word-break: anywhere;
+}
+.imagesFromData img {
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.flexComponent {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 3px 7px grey;
+  margin-top: 10px;
+  padding: 3% 2%;
+}
+.referenceLinkHandler {
+  text-align: center;
+}
+.displayFlex {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  justify-content: space-around;
+}
+.indivisualBox img {
+  max-width: 80px;
+  height: auto;
+  border-radius: 0;
+  border: 1px solid rgb(186, 186, 248);
+}
+.myHrHandlingClass {
+  border: none;
+  border-bottom: 1px solid rgb(245, 140, 41);
+  width: 100%;
+}
+.SecondClassComponent {
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.identifierDetails {
+  display: block;
+  text-align: left;
+  width: 50%;
+}
+.thirdClassComponent {
+  box-sizing: border-box;
+}
+.thirdClassComponent .h2Tag {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+}
+.thirdClassComponent i {
+  font-size: 10px;
+  position: relative;
+  top: -15px;
+  margin-top: 0;
+}
+.thirdClassComponent h3 {
+  font-family: "Merriweather", serif;
+  text-align: center;
+  padding: 0px 30px;
+}
+.thirdClassComponent .h4Tag {
+  text-align: center;
+  color: brown;
+  font-weight: bold;
+}
+
+.textEditorBorder {
+  border: 2px solid rgb(140, 250, 222);
+}
+.thirdClassComponent article {
+  padding: 30px 50px;
+  white-space: pre-wrap;
+}
+.fourthClassComponent img {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 60%;
+  height: 60%;
+}
+.fourthClassComponent {
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+.anotherIndivisualComponent {
+  text-align: right;
+}
+.indivisualBox div {
+  text-align: left;
+  margin-left: 0;
+}
+.imageCarasol {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  align-self: center;
+}
+.manageDivForComments {
+  width: 100%;
+  padding: 10px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 2px 3px 7px solid grey;
+  box-shadow: 1px 2px 3px grey;
+}
+.youtubevideohandler1 {
+  width: 70%;
+
+  height: 400px;
+}
+.carasolMarginClass {
+  width: 60%;
+  margin: auto;
+}
+.actionAdminNameSignature {
+  font-family: "Merriweather Sans";
+}
+.identifierName {
+  font-family: "Ubuntu", sans-serif;
+}
+.adslot_1 {
+  width: 320px;
+  height: 100px;
+}
+@media (max-width: 500px) {
+  .imageCarasol {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    align-self: center;
+  }
+  .adslot_1 {
+    width: 468px;
+    height: 60px;
+  }
+  .carasolMarginClass {
+    width: 100%;
+    margin: auto;
+  }
+  .myWidthClass {
+    position: static;
+    left: 0;
+    width: 100%;
+    margin-top: 55px;
+    margin-left: 0;
+    z-index: -1;
+    height: auto;
+    overflow: hidden;
+    overflow-y: none;
+    margin-bottom: 55px;
+  }
+  .youtubevideohandler {
+    width: 100%;
+    margin: -10px;
+  }
+  .youtubevideohandler1 {
+    width: 107%;
+    height: 200px;
+  }
+  .manageDivForComments {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 2px 3px 7px solid grey;
+  }
+  .flexComponent {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px grey;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .displayFlex {
+    display: flex;
+    padding: 5px auto;
+    justify-content: space-around;
+  }
+  /* .indivisualBox img {
+    width: 90px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0%;
+    border: 1px solid rgb(63, 63, 255);
+  } */
+  .myHrHandlingClass {
+    border: none;
+    border-bottom: 1px solid rgb(245, 140, 41);
+    width: 100%;
+  }
+  .SecondClassComponent {
+    margin: 10px;
+    display: flex;
+    text-align: center;
+  }
+  .identifierDetails {
+    display: block;
+    text-align: left;
+    width: 50%;
+  }
+  .thirdClassComponent {
+    box-sizing: border-box;
+  }
+  .thirdClassComponent .h2Tag {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+  }
+  .thirdClassComponent i {
+    font-size: 10px;
+    position: relative;
+    top: -5px;
+    margin-top: 0;
+  }
+  .thirdClassComponent h3 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    padding: 0px 30px;
+  }
+  .thirdClassComponent .h4Tag {
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+  }
+  .thirdClassComponent article {
+    padding: 10px 5px;
+  }
+  .fourthClassComponent img {
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 90%;
+    height: 90%;
+  }
+  .fourthClassComponent {
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+  }
+  .anotherIndivisualComponent {
+    text-align: right;
+  }
+  .indivisualBox div {
+    text-align: right;
+    margin-left: 0;
+  }
+}

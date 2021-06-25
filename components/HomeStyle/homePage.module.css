@@ -1,0 +1,391 @@
+.homePageStyle {
+  /* padding: 25% 25% 0 25%; */
+  /* padding: 3%; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  background-image: url("/background.jpg");
+}
+.mainHeadingHandler h1 {
+  font-family: "Merriweather", serif;
+}
+.exploreMoreClass {
+  width: 100%;
+
+  text-align: left;
+  align-items: center;
+}
+.exploreMoreClass a {
+  text-decoration: none;
+  color: white;
+}
+.animationDiv {
+  align-items: center;
+  text-align: center;
+  /* width: 50%; */
+  /* background: rgba(134, 134, 134, 0.35); */
+}
+.homePageStyle h5 {
+  font-family: "Pacifico", cursive;
+}
+.mainHeadingHandler {
+  width: 30%;
+  margin: 55px auto;
+  position: relative;
+  animation-name: headingName;
+  animation-fill-mode: forwards;
+  animation-duration: 2000ms;
+}
+@keyframes headingName {
+  0% {
+    opacity: 0;
+    bottom: 25px;
+    color: black;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+    color: white;
+    background-color: rgba(7, 7, 7, 0.5);
+  }
+}
+.headingText {
+  position: relative;
+  opacity: 0;
+  animation-name: headingText1;
+  animation-duration: 2000ms;
+  transition: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes headingText1 {
+  0% {
+    opacity: 0;
+    right: 200px;
+    color: darkblue;
+  }
+  100% {
+    opacity: 1;
+    right: 0px;
+    color: darkblue;
+  }
+}
+.nestedDivThree {
+  width: 75%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.nestedDivForManage {
+  margin: auto;
+  padding: 50px 0 0 0;
+  text-align: center;
+  justify-content: space-around;
+}
+.nestedDivForManage img {
+  margin: auto;
+  border-radius: 9px;
+  max-width: 400px;
+
+  height: auto;
+  object-fit: cover;
+  animation: imageAnimation 1000ms 1350ms forwards;
+  opacity: 0;
+  z-index: -2;
+}
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.imageTexting {
+  margin: 25% auto;
+  border-radius: 20px;
+  opacity: 0;
+  position: relative;
+  top: 10px;
+  /* animation-name: imageTexting1; */
+  animation: imageTexting1 1000ms 1000ms forwards;
+  /* animation-duration: 1000ms;
+  animation-delay: 1000ms; */
+}
+@keyframes imageTexting1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nestedDivForManage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.nestedDivForManage h5 {
+  font-family: sans-serif;
+  background-color: honeydew;
+}
+
+.infoDiv {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  box-sizing: border-box;
+  margin: 50px auto;
+  border-radius: 15px;
+  padding: 90px 30px;
+}
+.storyMargin {
+  width: 100%;
+  padding-bottom: 100px;
+}
+.infoNestedDiv h5 {
+  font-size: 2rem;
+  opacity: 0;
+  position: relative;
+  animation: StoryHeading 1000ms 2000ms forwards;
+  font-family: "Dancing Script", cursive;
+}
+@keyframes StoryHeading {
+  0% {
+    opacity: 0;
+    bottom: 14px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0;
+  }
+}
+.paragraphStory {
+  position: relative;
+  opacity: 0;
+  animation: storyParagraph 1300ms 2100ms forwards;
+}
+@keyframes storyParagraph {
+  0% {
+    opacity: 0;
+    top: 20px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+.infoNestedDiv strong {
+  font-family: "Times New Roman", Times, serif;
+}
+.footerForHome {
+  width: 100%;
+}
+.LogoDiv {
+  width: 85%;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 5px auto;
+}
+.logoMainDiv {
+  text-align: center;
+  align-items: center;
+}
+.logoImageHandler {
+  opacity: 0;
+  position: relative;
+  top: 30px;
+  animation-name: animatingImage;
+  animation-duration: 2000ms;
+  animation-delay: 1500ms;
+  animation-fill-mode: forwards;
+  /* animation: imageAnimation1 2000 1500 forwards; */
+}
+@keyframes animatingImage {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+@media (max-width: 500px) {
+  .logoImageHandler {
+    max-width: 100%;
+    height: auto;
+  }
+  .homePageStyle {
+    /* padding: 25% 25% 0 25%; */
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    background-image: url("/background.jpg");
+  }
+  .animationDiv {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .homePageStyle h5 {
+    font-family: "Pacifico", cursive;
+  }
+  .mainHeadingHandler {
+    width: 100%;
+    text-align: center;
+    /* margin: 50px 0px 20px; */
+    position: relative;
+    animation-name: headingName;
+    animation-fill-mode: forwards;
+    animation-duration: 2000ms;
+  }
+  @keyframes headingName {
+    0% {
+      opacity: 0;
+      bottom: 25px;
+      color: black;
+    }
+    100% {
+      opacity: 1;
+      bottom: 0;
+      color: white;
+      background-color: rgba(7, 7, 7, 0.5);
+    }
+  }
+  .headingText {
+    position: relative;
+    opacity: 0;
+    animation-name: headingText1;
+    animation-duration: 2000ms;
+    transition: ease-in;
+    animation-fill-mode: forwards;
+  }
+  @keyframes headingText1 {
+    0% {
+      opacity: 0;
+
+      color: darkblue;
+    }
+    100% {
+      opacity: 1;
+      right: 0px;
+      color: darkblue;
+    }
+  }
+  .nestedDivThree {
+    width: 90%;
+    padding: 5px 5px 0 50px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  .nestedDivForManage {
+    margin: auto;
+    padding: 10px 0 0 0;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .nestedDivForManage img {
+    border-radius: 9px;
+    max-width: 200px;
+    margin-left: -25px;
+
+    height: auto;
+    object-fit: cover;
+
+    animation: imageAnimation 1000ms 1350ms forwards;
+    opacity: 0;
+    z-index: -2;
+  }
+  @keyframes imageAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .imageTexting {
+    margin: 5px 5px 8px -35px;
+    border-radius: 20px;
+    opacity: 0;
+    position: relative;
+    top: 10px;
+    /* animation-name: imageTexting1; */
+    animation: imageTexting1 1000ms 1000ms forwards;
+    /* animation-duration: 1000ms;
+    animation-delay: 1000ms; */
+  }
+  @keyframes imageTexting1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .nestedDivForManage {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .nestedDivForManage h5 {
+    font-family: sans-serif;
+    background-color: honeydew;
+  }
+
+  .infoDiv {
+    width: 97%;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 10px 15px;
+  }
+  .infoNestedDiv h5 {
+    font-size: 1.4rem;
+    opacity: 0;
+    position: relative;
+    animation: StoryHeading 1000ms 2000ms forwards;
+    font-family: "Dancing Script", cursive;
+  }
+  @keyframes StoryHeading {
+    0% {
+      opacity: 0;
+      bottom: 14px;
+    }
+    100% {
+      opacity: 1;
+      bottom: 0;
+    }
+  }
+  .paragraphStory {
+    position: relative;
+    opacity: 0;
+    animation: storyParagraph 1300ms 2100ms forwards;
+  }
+  @keyframes storyParagraph {
+    0% {
+      opacity: 0;
+      top: 20px;
+    }
+    100% {
+      opacity: 1;
+      top: 0;
+    }
+  }
+  .infoNestedDiv strong {
+    font-family: "Times New Roman", Times, serif;
+  }
+  .footerForHome {
+    width: 100%;
+  }
+}

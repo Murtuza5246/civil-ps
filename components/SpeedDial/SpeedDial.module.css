@@ -1,0 +1,25 @@
+.link {
+  color: #636363;
+}
+.speedDial {
+  position: absolute;
+  right: 30rem;
+
+  top: 100px;
+}
+.CreateIconDiv {
+  position: absolute;
+  right: 40rem;
+  bottom: 0;
+}
+.CreateIcon {
+  background-color: blue;
+  color: blue;
+}
+
+.speedDialLoggedIn {
+  position: absolute;
+
+  right: 30rem;
+  bottom: -15px;
+}

@@ -1,0 +1,13 @@
+.searchbarHandler {
+  width: 95%;
+}
+/* .searchbarHandler input {
+  width: 700%;
+} */
+.iHandler i {
+  position: relative;
+  top: 17px;
+  color: grey;
+  font-size: 2rem;
+  margin: auto;
+}

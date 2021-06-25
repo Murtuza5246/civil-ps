@@ -1,0 +1,71 @@
+.myWidthClassCompose {
+  width: 95%;
+  margin-left: 3%;
+  margin-top: 55px;
+  margin-right: 3%;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: -1;
+  padding-bottom: 100px;
+  background-color: white;
+}
+/* .TextEditor {
+  width: 100%;
+  border: 2px solid black;
+} */
+.carasolMarginClass {
+  width: 30%;
+  height: auto;
+}
+.BoxShadowBox {
+  box-sizing: border-box;
+  box-shadow: 1px 2px 3px grey;
+  border-radius: 10px;
+  padding: 20px;
+}
+.BoxShadowBox i {
+  font-size: 7px;
+  position: relative;
+  top: -5px;
+  color: red;
+}
+.uploadFilesPadding {
+  margin-bottom: 10px;
+}
+.toastControl {
+  position: absolute;
+  right: 30px;
+  top: 55px;
+}
+
+@media (max-width: 500px) {
+  .myWidthClassCompose {
+    left: 0;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 55px;
+    height: auto;
+    overflow-y: hidden;
+    margin-right: 0;
+    z-index: -1;
+  }
+  .carasolMarginClass {
+    width: 100%;
+    height: auto;
+  }
+  .BoxShadowBox {
+    box-sizing: border-box;
+    box-shadow: 1px 2px 3px grey;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .BoxShadowBox i {
+    font-size: 7px;
+    position: relative;
+    top: -5px;
+    color: red;
+  }
+  .uploadFilesPadding {
+    margin-bottom: 10px;
+  }
+}

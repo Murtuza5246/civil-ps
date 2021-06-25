@@ -1,0 +1,84 @@
+.mainDivWritingArea {
+  width: 95%;
+  min-height: 50px;
+  box-shadow: 0 0 8px grey;
+  -webkit-box-shadow: 0 0 8px rgb(197, 193, 193);
+  margin: 10px auto 20px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+.imageIdentifer {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px white;
+  box-shadow: 0 0 3px rgb(197, 193, 193);
+  -webkit-box-shadow: 0 0 3px rgb(197, 193, 193);
+  background-color: white;
+}
+.writingBoxDiv {
+  width: 100%;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 0 0 3px rgb(197, 193, 193);
+  -webkit-box-shadow: 0 0 3px rgb(197, 193, 193);
+  background-color: rgb(235, 235, 235);
+  align-items: center;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.writingBoxDiv p {
+  color: teal;
+}
+.writingBoxDiv {
+  width: 100%;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 0 0 3px rgb(197, 193, 193);
+  -webkit-box-shadow: 0 0 3px rgb(197, 193, 193);
+  background-color: rgb(235, 235, 235);
+  align-items: center;
+  text-align: left;
+  padding-left: 10px;
+  cursor: pointer;
+  font-family: "Langar", cursive;
+}
+.writingBoxDiv p {
+  color: teal;
+}
+.inputClassInWriting {
+  width: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  max-height: 30px;
+  min-height: 25px;
+  padding: 0 10px;
+  background-color: rgb(253, 253, 253);
+}
+.writingModalName {
+  font-family: "Langar", cursive;
+}
+
+@media (max-width: 500px) {
+  .writingBoxDiv {
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 3px rgb(197, 193, 193);
+    -webkit-box-shadow: 0 0 3px rgb(197, 193, 193);
+    background-color: rgb(235, 235, 235);
+    align-items: center;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  .writingBoxDiv p {
+    color: teal;
+    font-size: 12px;
+  }
+}

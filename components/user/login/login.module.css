@@ -1,0 +1,44 @@
+.myWidthClassCompose {
+  width: 100%;
+  margin-top: 45px;
+  height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  overflow-y: scroll;
+  z-index: -1;
+}
+.flexComponent {
+  width: 100%;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 1px 3px 7px grey;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(243, 161, 161);
+}
+
+@media (max-width: 500px) {
+  .mobileScreenHandler {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .myWidthClassCompose {
+    position: static;
+    left: 0;
+    width: 100%;
+    margin-right: 0;
+    margin: 45px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index: -1;
+  }
+  .flexComponent {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 3px 7px grey;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid rgb(243, 161, 161);
+  }
+}

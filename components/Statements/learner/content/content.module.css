@@ -1,0 +1,10 @@
+.contentHead {
+  width: 100%;
+  padding: 2px 2px 10px 20px;
+  min-height: 50px;
+  overflow-wrap: anywhere;
+}
+
+.contentHead p {
+  font-family: "Merriweather Sans";
+}

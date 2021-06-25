@@ -1,0 +1,53 @@
+.manageDiv {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10x;
+  box-shadow: 1px 3px 6px solid grey;
+}
+.nameTagHandler {
+  color: black;
+  text-decoration: none;
+}
+.replyNameBackground {
+  background-color: #bdc9ff;
+  border-radius: 4px;
+  padding-right: 2px;
+  margin-right: 2px;
+  color: white;
+}
+.nameBackground {
+  background-color: #31326f;
+  border-radius: 4px;
+  padding-right: 2px;
+  margin-right: 2px;
+  color: white;
+}
+.nameBackground a {
+  color: white;
+  text-decoration: none;
+}
+.ImageHandler {
+  height: 90px;
+  width: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.timeAndDate {
+  color: rgb(170, 170, 170);
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+@media (max-width: 500px) {
+  .manageDiv {
+    width: 100%;
+    padding: 2px;
+    border-radius: 10x;
+    box-shadow: 1px 3px 6px solid grey;
+  }
+  .ImageHandler {
+    height: 45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}

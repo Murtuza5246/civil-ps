@@ -1,0 +1,40 @@
+.writingBoxDiv {
+  width: 100%;
+  height: 30px;
+  border-radius: 50px;
+  box-shadow: 0 0 3px rgb(197, 193, 193);
+  -webkit-box-shadow: 0 0 3px rgb(197, 193, 193);
+  background-color: rgb(235, 235, 235);
+  align-items: center;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+  font-family: "Langar", cursive;
+}
+.writingModalName {
+  font-family: "Langar", cursive;
+}
+.writingBoxDiv p {
+  color: teal;
+}
+
+@media (max-width: 500px) {
+  .writingBoxDiv {
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 3px rgb(197, 193, 193);
+    -webkit-box-shadow: 0 0 3px rgb(197, 193, 193);
+    background-color: rgb(235, 235, 235);
+    align-items: center;
+    text-align: left;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  .writingBoxDiv p {
+    color: teal;
+    font-size: 12px;
+  }
+}

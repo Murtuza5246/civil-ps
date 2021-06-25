@@ -1,0 +1,29 @@
+.mainDiv {
+  width: 95%;
+  margin-left: 3%;
+  margin-top: 55px;
+  box-shadow: 2px 4px 7px grey;
+  height: 100vh;
+  overflow-y: scroll;
+  border-radius: 10px;
+  padding-bottom: 100px;
+}
+.imageHandlingDiv {
+  width: 100%;
+  padding-top: 5px;
+  justify-content: space-around;
+  margin: 5px auto;
+  text-align: center;
+}
+.imageHandlingDiv img {
+  max-width: 120px;
+  height: auto;
+}
+.headingHandler {
+  text-align: center;
+  margin-top: 10px;
+}
+.headingHandler h1 {
+  font-family: "Merriweather", serif;
+  color: brown;
+}

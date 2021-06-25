@@ -1,0 +1,33 @@
+.postHeaderMain {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9fafc;
+  border-bottom: 0.1px solid rgb(231, 231, 231);
+}
+.doingAt {
+  font-family: "Courgette", cursive;
+}
+.fontFamilyName {
+  font-family: "Ubuntu", sans-serif;
+}
+.doingAt {
+  color: rgb(151, 149, 149);
+  padding-top: 10px;
+}
+.postHeaderProfile {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .doingAt {
+    width: 100%;
+    font-size: 11px;
+  }
+}
