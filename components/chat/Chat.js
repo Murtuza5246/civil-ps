@@ -20,6 +20,8 @@ import { Tooltip } from "@material-ui/core";
 //   // your config
 // });
 
+//new update
+
 const auth = firebase.auth();
 const firestore = firebase.firestore();
 const analytics = firebase.analytics();
