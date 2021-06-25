@@ -133,14 +133,13 @@ export default function SideBarItems(props) {
               )}
               {userId && (
                 <Link
-                  onClick={
-                    props.onClick
-                      ? () => logoutFunc(despatch)
-                      : () => despatch(actionCreator.logout())
-                  }
+                  
                   href="/statements"
                 >
-                  <a>
+                  <a onClick={
+               
+                       () => despatch(actionCreator.logout())
+                  }>
                     <div
                       className={classes.ListeItems}
                       onClick={
