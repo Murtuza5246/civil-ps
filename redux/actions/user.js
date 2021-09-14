@@ -25,6 +25,21 @@ export const recaptchaCreatore = (string) => {
     string: string,
   };
 };
+export const oAuthStart = (data) => {
+  const time = new Date().getTime();
+  localStorage.setItem("token", data.token);
+  localStorage.setItem("initTime", time);
+  return {
+    type: actionType.AUTH_SUCCESS,
+    token: data.token,
+    email: data.email,
+    userId: data.userId,
+    fName: data.fName,
+    lName: data.lName,
+    composeHandler:data.composeHandler,
+    canApprove:data.canApprove,
+  };
+}
 export const textEditor = (object) => {
   return {
     type: actionType.TEXT,
