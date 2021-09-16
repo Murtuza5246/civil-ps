@@ -8,7 +8,7 @@ import { Alert } from "@material-ui/lab";
 import { loadReCaptcha } from "react-recaptcha-google";
 import { GoogleLogin } from 'react-google-login';
 import axios from "../../axios/axios";
-// import axios from "axios"
+import FacebookLogin from 'react-facebook-login';
 import * as actionCreator from "../../../redux/actions/index"
 
 const LoginScreen = (props) => {
@@ -46,6 +46,14 @@ const LoginScreen = (props) => {
     })
 
     
+ }
+ /////////////////////////////////////////
+ const facebookComponentClicked = () => {
+   return;
+ }
+ /////////////////////////////////////////
+ const responseFacebook = (response) => {
+   console.log(response);
  }
  /////////////////////////////////////////
  const responseGoogleFailure = (response) => {
@@ -103,6 +111,13 @@ const LoginScreen = (props) => {
     onFailure={responseGoogleFailure}
     cookiePolicy={'single_host_origin'}
   />
+      <h3>OR</h3>
+      <FacebookLogin
+    appId="371473093920836"
+    autoLoad={true}
+    fields="name,email,picture"
+    onClick={facebookComponentClicked}
+    callback={responseFacebook} />
       {props.alertMessage && (
         <Alert severity="error">{props.alertMessage}</Alert>
       )}

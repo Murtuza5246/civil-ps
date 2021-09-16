@@ -25,6 +25,7 @@ class MyDocument extends Document {
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           />
+          <meta name="facebook-domain-verification" content="hzwnc3uq7ovm66xn79ikvxfmvmh3ra" />
           <script>(adsbygoogle = window.adsbygoogle || []).push({})</script>
           <script
             dangerouslySetInnerHTML={{
