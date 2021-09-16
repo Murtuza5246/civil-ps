@@ -39,6 +39,22 @@ class MyDocument extends Document {
           `,
             }}
           />
+          <script>
+          dangerouslySetInnerHTML={{
+              __html: `
+              window.fbAsyncInit = function() {
+                FB.init({
+                  appId            : '371473093920836',
+                  autoLogAppEvents : true,
+                  xfbml            : true,
+                  version          : 'v12.0'
+                });
+              };
+          `,
+            }}
+ 
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
           <meta name="theme-color" content="#3550d6" />
 
           <link
