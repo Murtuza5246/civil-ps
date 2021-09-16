@@ -14,6 +14,7 @@ import * as actionCreator from "../../../redux/actions/index"
 const LoginScreen = (props) => {
   const [captcha, setCaptcha] = useState(true);
   const [Message, setMessage] = useState(false);
+  const [FBMessage, setFBMessage] = useState(false);
   const [oAuth, setOAuth] = useState(true);
   const dispatch = useDispatch()
   const disabledButton = useSelector((state) => state.user.disabledButton);
@@ -59,7 +60,7 @@ const LoginScreen = (props) => {
       if(result.data.message == "Not registered"){
         console.log(result.data.message);
         setOAuth(true)
-        setMessage(true)
+        setFBMessage(true)
         return;
       }else{
         
@@ -72,7 +73,7 @@ const LoginScreen = (props) => {
       return console.log(error);
     })
    }else{
-    return setMessage(true)
+    return setFBMessage(true)
    }
  
  }
@@ -142,7 +143,9 @@ const LoginScreen = (props) => {
       {props.alertMessage && (
         <Alert severity="error">{props.alertMessage}</Alert>
       )}
-     { Message ? <Alert severity="error">This email is not registered</Alert> : null
+     { Message ? <Alert severity="error">This google email is not registered</Alert> : null
+}
+     { FBMessage ? <Alert severity="error">This facebook email is not registered</Alert> : null
 }
       <p>
         Forget password ? Click <Link href="/user/forget">here</Link>{" "}
