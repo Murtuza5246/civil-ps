@@ -53,7 +53,28 @@ const LoginScreen = (props) => {
  }
  /////////////////////////////////////////
  const responseFacebook = (response) => {
-   console.log(response);
+   if(response.email){
+    axios.get(`/user/oauth/${response.email}`).then(result => {
+      console.log(result.data);
+      if(result.data.message == "Not registered"){
+        console.log(result.data.message);
+        setOAuth(true)
+        setMessage(true)
+        return;
+      }else{
+        
+        return dispatch(actionCreator.oAuthStart(result.data))
+      }
+
+
+    }).catch(error => {
+      setOAuth(true)
+      return console.log(error);
+    })
+   }else{
+    return setMessage(true)
+   }
+ 
  }
  /////////////////////////////////////////
  const responseGoogleFailure = (response) => {
